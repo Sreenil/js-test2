@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container
+{
+    width: auto;
+    height: auto;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.container h1
+{
+    text-align: center;
+}
+
+.container .itemname
+{
+    padding: 10px;
+}
+
+.container .itemname input
+{
+    width: 335px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.container .itemprice
+{
+    padding: 10px;
+}
+
+.container .itemprice input
+{
+    width: 335px;
+    height: 30px;
+    border-radius: 10px;
+}
+.container button
+{
+    padding: 5px;
+    margin-left: 10px;
+    width: 335px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+#cartTotal
+{
+    padding: 10px;
+}
